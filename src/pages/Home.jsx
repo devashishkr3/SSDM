@@ -11,7 +11,6 @@ import Events from "../components/Events";
 const Home = () => {
   return (
     <div className="bg-[var(--color-page)]">
-
       {/* ================= HERO SECTION ================= */}
       <section>
         <Slider
@@ -43,12 +42,12 @@ const Home = () => {
         </div>
       </section>
 
-      {/* ================= PROGRAMS ================= */}
+      {/* ================= PROGRAMS =================
       <section className="py-20">
         <div className="mx-auto px-4 md:px-8 lg:px-16">
           <Programs />
         </div>
-      </section>
+      </section> */}
 
       {/* ================= QUICK LINKS ================= */}
       <section className="bg-[var(--color-surface)] py-16">
@@ -63,7 +62,6 @@ const Home = () => {
           <Events />
         </div>
       </section>
-
     </div>
   );
 };
